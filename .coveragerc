@@ -1,0 +1,12 @@
+[run]
+source = app
+omit =
+    app/__init__.py
+
+[report]
+show_missing = True
+skip_covered = False
+precision = 1
+
+[html]
+directory = htmlcov
