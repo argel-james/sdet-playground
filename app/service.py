@@ -96,7 +96,7 @@ def delete_todo(todo_id: str) -> bool:
     if todo_id not in _store:
         return False
 
-    del _store[todo_id]
+    # del _store[todo_id]
     # FIXME: Intentional bug for SDET demo — see BUG_REPORT.md
     # Should be: del _store[todo_id]  (or _store.pop(todo_id))
     # BUG: returns success without removing the item from the store.

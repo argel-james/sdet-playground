@@ -5,3 +5,7 @@ htmlcov/
 .coverage
 coverage.xml
 *.pyc
+
+
+INTERVIEW_PREP.md
+INTERVIEW_BRIEFING.md
